@@ -17,10 +17,13 @@
         <td>Hello ${name} ${lastname}!</td>
     </tr>
     <tr>
-        <td>Your Email is ${email}</td>
+        <td>Your Email is [${email}]</td>
     </tr>
     <tr>
-        <td>Your Phone Number is ${pnumber}</td>
+        <td>Your Phone Number is [${pnumber}]</td>
+    </tr>
+    <tr>
+        <td>Your Password is [NAH]</td>
     </tr>
 </table>
 

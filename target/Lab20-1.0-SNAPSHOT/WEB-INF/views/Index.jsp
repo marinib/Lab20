@@ -12,6 +12,7 @@
 </head>
 <body>
 <p>Welcome to GC Coffee!
+    <br>
     <a href="/customer">Register Here</a>
 </p>
 </body>

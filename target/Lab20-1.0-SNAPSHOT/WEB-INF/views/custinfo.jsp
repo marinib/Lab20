@@ -11,16 +11,19 @@
     <title>Customer Info</title>
 </head>
 <body>
-<h2>Customer Info</h2>
+<h2>Your Customer Info</h2>
 <table>
     <tr>
         <td>Hello ${name} ${lastname}!</td>
     </tr>
     <tr>
-        <td>Your Email is ${email}</td>
+        <td>Your Email is [${email}]</td>
     </tr>
     <tr>
-        <td>Your Phone Number is ${pnumber}</td>
+        <td>Your Phone Number is [${pnumber}]</td>
+    </tr>
+    <tr>
+        <td>Your Password is [NOPE]"</td>
     </tr>
 </table>
 
