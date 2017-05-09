@@ -23,7 +23,7 @@
         <td>Your Phone Number is [${pnumber}]</td>
     </tr>
     <tr>
-        <td>Your Password is [NAH]</td>
+        <td>Your Password is [nope]</td>
     </tr>
 </table>
 

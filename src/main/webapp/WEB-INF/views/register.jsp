@@ -41,16 +41,17 @@
             <td><form:input path="pass" type="password"/></td>
         </tr>
         <tr>
-            <td>Your gender: <br>
-            <td><input type="radio" name="gender" value="male"> Male<br>
-                <input type="radio" name="gender" value="female"> Female<br>
-                <input type="radio" name="gender" value="other"> Other<br>
+            <td>Type of roast: <br>
+            <td><input type="radio" name="gender" value="light"> Dark<br>
+                <input type="radio" name="gender" value="medium"> Medium<br>
+                <input type="radio" name="gender" value="dark"> Light<br>
             </td>
         </tr>
         <tr>
-            <td>Are you over 18?<br>
-                <input type="radio" name="age" value="male"> Yes
-                <input type="radio" name="age" value="female"> No
+            <td>Size? <br>
+                <input type="radio" name="age" value="female"> Tall
+                <input type="radio" name="age" value="male"> Grande
+                <input type="radio" name="age" value="female"> Venti
             </td>
         </tr>
         <tr>

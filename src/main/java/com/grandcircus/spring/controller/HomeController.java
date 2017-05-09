@@ -1,6 +1,6 @@
 package com.grandcircus.spring.controller;
 
-import com.grandcircus.spring.Customer;
+import com.grandcircus.spring.realHumanBean;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,18 +15,17 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomeController {
 
     @RequestMapping("/")
-    public ModelAndView welcomePage() {
-        return new ModelAndView("Index","","");
+    public ModelAndView indexPage() {
+        return new ModelAndView("Index");
     }
-
 
     @RequestMapping(value = "/customer", method = RequestMethod.GET)
     public ModelAndView student() {
-        return new ModelAndView("register", "command", new Customer());
+        return new ModelAndView("register", "command", new realHumanBean());
     }
 
     @RequestMapping(value = "/addCustomer", method = RequestMethod.POST)
-    public String addStudent(Customer customer, Model model) {
+    public String addStudent(realHumanBean customer, Model model) {
         model.addAttribute("name", customer.getName());
         model.addAttribute("lastname", customer.getLastname());
         model.addAttribute("email", customer.getEmail());

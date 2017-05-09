@@ -11,9 +11,9 @@
     <title>Welcome Page</title>
 </head>
 <body>
-<p>Welcome to GC Coffee!
+<h2>Welcome to Human Bean Java!</h2>
     <br>
     <a href="/customer">Register Here</a>
-</p>
+</h2>
 </body>
 </html>

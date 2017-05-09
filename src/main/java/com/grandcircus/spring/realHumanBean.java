@@ -1,14 +1,30 @@
 package com.grandcircus.spring;
 
+//import com.sun.istack.internal.NotNull;
+//import static javax.swing.text.StyleConstants.Size;
+//import javax.validation.constraints.Min;
+
 /**
  * Created by uComp1337me on 5/8/2017.
  */
-public class Customer {
+public class realHumanBean {
+
+//    @NotNull
+//    @Size(min=2, max=30)
+//    private String name2;
+//
+//    @NotNull
+//    @Min(18)
+//    private Integer age;
+
     private String name;
     private String lastname;
     private String email;
     private String pnumber;
     private String pass;
+
+    public realHumanBean() {
+    }
 
     public String getName() {
         return name;
